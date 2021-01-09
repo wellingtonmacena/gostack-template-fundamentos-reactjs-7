@@ -6,6 +6,7 @@
     "axios": "^0.19.2",
     "filesize": "^6.1.0",
     "history": "^4.10.1",
+    "moment": "^2.29.1",
     "polished": "^3.5.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",

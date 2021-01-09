@@ -4,7 +4,7 @@ import { Container, FileInfo } from './styles';
 
 interface FileProps {
   name: string;
-  readableSize: string;
+  size: string;
 }
 
 interface FileListProps {
@@ -19,7 +19,7 @@ const FileList: React.FC<FileListProps> = ({ files }: FileListProps) => {
           <FileInfo>
             <div>
               <strong>{uploadedFile.name}</strong>
-              <span>{uploadedFile.readableSize}</span>
+              <span>{uploadedFile.size}</span>
             </div>
           </FileInfo>
         </li>
